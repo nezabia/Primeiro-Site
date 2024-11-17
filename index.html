@@ -151,9 +151,26 @@
                     </ol>
                 </details>
             </section>
+            <!--Formulário de Feedback-->
+            <section>
+                <h2>Me dê o seu feedback!</h2>
+                <form>
+                    <fieldset> <!--Cria uma areazinha ao redor de todo o formulário.-->
+                        <legend>Informações de contato</legend>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">><br>
+                        <label for="comentarios">Comentários:</label><br>
+                        <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="Adicione seus comentários aqui."></textarea>
+                        <button onclick="alert('Feedback enviado!')">Envie seu feedback!</button>
+                </fieldset>
+                </form>
+            </section>
         </main>
         <footer>
-
+            <p>&copy Quiz de programadores. Todos os direitos reservados.</p>
         </footer>
     </body>
+    <!--Podemos usar & e alguns caracteres para colocar algum simbolo que é utilizado pelo HTML em nosso texto. Exemplo: &gt adiciona < e &lt adiciona >.-->
 </html>
